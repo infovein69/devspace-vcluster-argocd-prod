@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
     kustomize:
       images:
-      - infovein69/devops-toolkit:894f14f58d44a8928fcd720766700e35817245bd
+      - infovein69/devops-toolkit:22b849f1adf0523f2ebf68dceaa25644b641a663
   destination:
     namespace: production
     server: https://kubernetes.default.svc
